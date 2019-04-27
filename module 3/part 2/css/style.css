@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Cute Font", serif;
+    font-size: 50px
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto ;
+    padding: 0 30px;
+
+}
+.text-wrapper{
+    
+    margin: 0 auto;
+    background: purple;
+    color: #ffffff;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-indent: 15px;
+    line-height: 36px;
+    padding: 100px; 
+   
+
+}
+
+.text{
+margin-top: 80px;
+}
+.square {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: purple;
+    background: url(../img/Mr_beans_holiday_ver2.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-attachment: fixed
+    
+}
+.slide1{
+    background-image: url(https://cdn.guidingtech.com/media/assets/WordPress-Import/2017/06/img-12.jpg)
+}
+.slide2{
+    background-image: url(https://imgnooz.com/sites/default/files/wallpaper/nature/60900/beautiful-summer-wallpapers-60900-5295241.jpg)
+}
+.slide3{
+    background-image: url(https://usatunofficial.files.wordpress.com/2012/03/canadian_rockies_beauty_wallpaper_g7zor.jpg)
+}
+
+
+
+.slide{
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.squarelist{
+    text-align: center;
+}

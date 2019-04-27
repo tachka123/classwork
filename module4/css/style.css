@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.wrapper {
+  background: linear-gradient(to right, red 20%, blue 100%, red 20%);
+  min-height: 100vh;
+  padding: 30px;
+}
+.title {
+  color: hsl(0, 0%, 92%);
+  text-transform: uppercase;
+  margin: 0.8em 0;
+}
+/* .title::before {
+  content: "\2623";
+  font-size: 60px;
+} */
+.title::after {
+  content: "\2623;";
+}
+.text {
+  font-size: 20px;
+  color: rgb(34, 175, 29);
+  background: rgba(168, 17, 11, 0.4);
+text-align: justify;
+  padding: 40px;
+
+}
+.title::first-letter{
+    font-size: 50px;
+    color: green
+}
+.text::first-line{
+    color: blueviolet;
+}
+.text::selection{
+    background: yellow
+}
+
+.krasiviu1{
+    float: right;
+    margin: 10px 10px;
+    border-radius: 50%
+}
+
+.list{
+    padding: 40px;
+    background: indianred;;
+}
+.item{
+    width: 25%;
+    border: 1px solid green;
+    height: 450px;
+    float: left;
+    text-align: center
+    
+}
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+.img{
+    margin-top: 20px;
+    outline: 20px, black;
+    border: black, 20px;
+    width: 250px;
+    height: 200px;
+    text-align: center
+}
+.under{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 250px;
+    
+}
